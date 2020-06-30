@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_YjYy8GeCEeqM19Q8Dkbblg" name="Versement" dataPackage="_YjYy8WeCEeqM19Q8Dkbblg" Server="Localhost 127.0.0.1" FilePath="D:/Danis_ITS4/DatawareHouse_TP/Tp_DW_DanisJIOGUE/LivraisonVersement.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="livraison" firstColumn="1" thousandSeparator="" decimalSeparator="','" advancedSpearator="true" sheetList="versement:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_YjYy8WeCEeqM19Q8Dkbblg" name="default" dataManager="_YjYy8GeCEeqM19Q8Dkbblg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_YjYy8meCEeqM19Q8Dkbblg" id="__-HGUGeBEeqM19Q8Dkbblg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YjYy82eCEeqM19Q8Dkbblg" label="idacl_client" length="2" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YjYy9GeCEeqM19Q8Dkbblg" label="prix_tot_v_cfa" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YjYy9WeCEeqM19Q8Dkbblg" label="prix_tot_v_dalasy" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
